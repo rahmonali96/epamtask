@@ -14,7 +14,5 @@ public class Main {
         System.out.println("Quantity of black balls are " + recycle.getQuantityByColor(Color.BLACK));
         System.out.println("Weight of black balls are: " + recycle.getWeightByColor(Color.BLACK));
 
-
-
     }
 }
