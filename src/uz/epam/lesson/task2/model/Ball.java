@@ -1,4 +1,4 @@
-package task2;
+package uz.epam.lesson.task2.model;
 
 public class Ball {
     private Color color;

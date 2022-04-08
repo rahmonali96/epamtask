@@ -1,4 +1,4 @@
-package task1;
+package uz.epam.lesson.task1;
 
 import java.util.Arrays;
 import java.util.Scanner;
