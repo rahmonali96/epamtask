@@ -26,7 +26,7 @@ public class CardCreator {
         this.file = file;
     }
 
-    public Card getCard() throws FileNotFoundException {
+    public Card getCard() throws Exception {
         Scanner scanner = new Scanner(file);
         Card card = new Card();
         while (scanner.hasNext()) {

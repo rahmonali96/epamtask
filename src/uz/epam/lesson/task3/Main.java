@@ -14,8 +14,8 @@ public class Main {
         try {
             CardService cardService = new CardService(cardCreator.getCard());
             System.out.println(cardService.getWeightByColor(Color.BLACK));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }
